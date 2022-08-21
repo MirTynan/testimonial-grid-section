@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
+  height: 100vh;
+  max-height: 100vh;
+  max-width: 144rem;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.testimonial-section {
+  height: 100vh;
+  max-height: 100vh;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.testimonial-container {
+  height: 100vh;
+  max-height: 100vh;
+  max-width: 144rem;
+
+  background-color: hsl(210, 46%, 95%);
+  padding: 8rem 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1.8rem;
+  row-gap: 1.8rem;
+}
+
+.graduate-info {
+  display: flex;
+  gap: 2rem;
+}
+
+.testimonial-img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.testimonial {
+  border-radius: 9px;
+  padding: 1.8rem;
+}
+
+.graduate-info {
+  margin-bottom: 1.2rem;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.header-quote {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.quote {
+  color: hsl(0, 0%, 81%);
+}
+
+.testimonial-Daniel {
+  background-color: hsl(263, 55%, 52%);
+
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.testimonial-Daniel .header-quote {
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-Jonathan {
+  background-color: hsl(217, 19%, 35%);
+
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.testimonial-Jonathan .header-quote {
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-Jeanette {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.testimonial-Jeanette .header-quote {
+  color: hsl(219, 29%, 14%);
+}
+
+.testimonial-Patrick {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: 2 / 4;
+  grid-row: 2;
+}
+
+.testimonial-Patrick .header-quote {
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-Kira {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: 4;
+  grid-row: 1 / 3;
+}
+
+.testimonial-Kira .header-quote {
+  color: hsl(219, 29%, 14%);
+}
+
+.testimonial-Daniel .graduate-text,
+.testimonial-Jonathan .graduate-text,
+.testimonial-Patrick .graduate-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-Daniel .quote,
+.testimonial-Jonathan .quote,
+.testimonial-Patrick .quote {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.testimonial-Daniel .verified,
+.testimonial-Jonathan .verified,
+.testimonial-Patrick .verified {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.testimonial-Jeanette .graduate-text,
+.testimonial-Kira .graduate-text {
+  color: hsl(219, 29%, 14%);
+}
+
+.testimonial-Jeanette .quote,
+.testimonial-Kira .quote {
+  color: hsla(217, 30%, 14%, 0.7);
+}
+
+.testimonial-Jeanette .verified,
+.testimonial-Kira .verified {
+  color: hsla(217, 30%, 14%, 0.5);
+}

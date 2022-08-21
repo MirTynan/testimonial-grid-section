@@ -1,0 +1,156 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets)  */
+/**************************/
+
+@media (max-width: 75em) {
+  /* html { */
+  /* 9px / 16 px (16 because that is the default rem size*/
+  /* font-size: 56.25%;
+    } */
+
+  body {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2rem 6rem;
+  }
+
+  .testimonial-Kira {
+    grid-column: 1 / 4;
+    grid-row: 3;
+  }
+
+  .header-quote {
+    font-size: 1.5rem;
+  }
+
+  .graduate-info {
+    font-size: 1.2rem;
+  }
+}
+/**************************/
+/* BELOW 912px (Tablets)  */
+/**************************/
+
+@media (max-width: 57em) {
+  body {
+    overflow-y: visible;
+  }
+
+  .header-quote {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 3rem 6.6rem;
+    column-gap: 3.8rem;
+    row-gap: 2.2rem;
+    overflow-y: scroll;
+  }
+
+  .testimonial-Daniel {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .testimonial-Jonathan {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .testimonial-Jeanette {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .testimonial-Patrick {
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+
+  .testimonial-Kira {
+    grid-column: 1 / 3;
+    grid-row: 4;
+  }
+}
+
+/**************************/
+/* BELOW 736px (Smaller tablets)  */
+/**************************/
+
+@media (max-width: 46em) {
+  body {
+    font-size: 1rem;
+  }
+
+  .testimonial-container {
+    padding: 3rem 4.6rem;
+    column-gap: 2.8rem;
+    row-gap: 1.8rem;
+  }
+
+  .header-quote {
+    font-size: 1.3rem;
+  }
+
+  .graduate-info {
+    font-size: 1.1rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones)  */
+/**************************/
+
+@media (max-width: 34em) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding: 3.6rem 7.6rem;
+    column-gap: 3.8rem;
+    row-gap: 2.2rem;
+    overflow-y: scroll;
+  }
+
+  .header-quote {
+    font-size: 1.1rem;
+  }
+
+  .graduate-info {
+    font-size: 1rem;
+  }
+
+  .testimonial-Daniel {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .testimonial-Jonathan {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .testimonial-Jeanette {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .testimonial-Patrick {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .testimonial-Kira {
+    grid-column: 1;
+    grid-row: 5;
+  }
+}
